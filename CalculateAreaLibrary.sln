@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBA1FF9F-383F-497D-9F05-B17340D9775D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateArea.Abstractions", "src\CalculateArea.Abstractions\CalculateArea.Abstractions.csproj", "{5F4965AE-445D-42D3-9CF5-19C13895B7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateArea.Triangle", "src\CalculateArea.Triangle\CalculateArea.Triangle.csproj", "{8A70C269-B7F5-452F-9528-4CEBB505CAD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{48F31F7F-9143-43E7-B1E0-6E770E27ED83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateArea.UnitTest", "test\CalculateArea.UnitTest\CalculateArea.UnitTest.csproj", "{FE900A35-9AB0-46E9-A2B1-E61246AF3123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateArea.Circle", "src\CalculateArea.Circle\CalculateArea.Circle.csproj", "{229E71C0-89F1-43C6-95B4-800413D82A59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4965AE-445D-42D3-9CF5-19C13895B7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4965AE-445D-42D3-9CF5-19C13895B7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4965AE-445D-42D3-9CF5-19C13895B7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4965AE-445D-42D3-9CF5-19C13895B7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A70C269-B7F5-452F-9528-4CEBB505CAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A70C269-B7F5-452F-9528-4CEBB505CAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A70C269-B7F5-452F-9528-4CEBB505CAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A70C269-B7F5-452F-9528-4CEBB505CAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE900A35-9AB0-46E9-A2B1-E61246AF3123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE900A35-9AB0-46E9-A2B1-E61246AF3123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE900A35-9AB0-46E9-A2B1-E61246AF3123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE900A35-9AB0-46E9-A2B1-E61246AF3123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229E71C0-89F1-43C6-95B4-800413D82A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229E71C0-89F1-43C6-95B4-800413D82A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229E71C0-89F1-43C6-95B4-800413D82A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229E71C0-89F1-43C6-95B4-800413D82A59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F4965AE-445D-42D3-9CF5-19C13895B7AC} = {EBA1FF9F-383F-497D-9F05-B17340D9775D}
+		{8A70C269-B7F5-452F-9528-4CEBB505CAD0} = {EBA1FF9F-383F-497D-9F05-B17340D9775D}
+		{FE900A35-9AB0-46E9-A2B1-E61246AF3123} = {48F31F7F-9143-43E7-B1E0-6E770E27ED83}
+		{229E71C0-89F1-43C6-95B4-800413D82A59} = {EBA1FF9F-383F-497D-9F05-B17340D9775D}
+	EndGlobalSection
+EndGlobal
